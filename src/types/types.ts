@@ -61,3 +61,10 @@ export type CreatePricingRuleInput = {
   value?: number;
   isActive?: boolean;
 };
+
+export type AdminTabKey =
+  | "court"
+  | "equipment"
+  | "coach"
+  | "pricing"
+  | "coachAvailability";
